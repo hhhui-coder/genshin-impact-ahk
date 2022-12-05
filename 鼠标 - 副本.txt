@@ -1,0 +1,181 @@
+﻿F10::
+while (1) {
+      
+MouseClick, , 1323, 506, 1, 2, D
+MouseClick, , 1323, 506, 1, 2, U
+             MouseMove, 883, 547,0
+Sleep 2000
+MouseClick, , 883, 547, 1, 2, D
+MouseClick, , 883, 547, 1, 2, U
+            MouseMove,1010, 545,0
+Sleep 4000
+MouseClick, , 1010, 545, 1, 2, D
+MouseClick, ,  1010, 545, 1, 2, U
+             MouseMove, 1152, 543,0
+Sleep 4000
+MouseClick, , 1152, 543, 1, 2, D
+MouseClick, , 1152, 543, 1, 2, U
+
+MouseClick, , 1536, 317, 1, 2, D
+MouseClick, , 1536, 317, 1, 2, U
+}
+F12::pause
+
+
+
+下下是ahkwriter,这个是ahk后缀里
+numpad1::
+{
+WinWait, Genshin Impact
+WinWaitActive, Genshin Impact
+send, {e up}
+sleep,3
+send, {e up}
+sleep,3
+send, {e up}
+sleep,3
+send, {e down}
+sleep,196
+Send,{LSHIFT}
+sleep,1
+Send,{LSHIFT}
+sleep,1
+send, {e down}
+send, {e up}
+send, {e down}
+send, {e up}
+send,3
+send,3
+sleep,1
+send,3
+sleep,1
+send,3
+send,3
+send,3
+send,3
+sleep,1
+send, {e up}
+send, {e up}
+send, {e up}
+send, {e up}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+sleep, 1500
+Reload
+sleep, 1500
+Return
+}
+
+numpad1::
+{
+send, {e up}
+sleep,3
+send, {e up}
+sleep,3
+send, {e up}
+sleep,3
+send, {e down}
+sleep,200
+Send,{LSHIFT}
+sleep,1
+Send,{LSHIFT}
+sleep,1
+Send,{LSHIFT}
+sleep,1
+Send,{LSHIFT}
+sleep,1
+Send,{LSHIFT}
+sleep,1
+send,3
+send,3
+send,3
+send,3
+send,3
+send,3
+send,3
+send,3
+sleep,1
+send,3
+sleep,1
+send,3
+send,3
+send,3
+send,3
+send,3
+send, {e up}
+sleep,1
+send, {e up}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+send, {e down}
+sleep, 3000
+sleep, 3000
+Return
+}
+F12::exitapp
+
+以下这个是自动过剧情
+F10::
+while(1){
+WinWait, Genshin Impact
+WinWaitActive, Genshin Impact
+Click, 1512, 666, 1;
+sleep,61
+Click, 1512, 780, 1;
+sleep,62
+Click, 1512, 735, 1;
+sleep,63
+}
+以下这个是宵宫速射
+numpad3::
+while(1){
+Click, 1412, 666, 1;
+Click, 1412, 666, 1;
+sleep, 160
+send,r
+sleep,50
+send,r
+sleep,10
+}
+
+
+
+
+
+
